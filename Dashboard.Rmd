@@ -14,3 +14,29 @@ library(patchwork)
 library(rnoaa)
 stations <- ghcnd_stations()
 ```
+
+The dataset I choose is NY NOAA(dataset_noaa.html). These data were accessed from the NOAA National Climatic Data Center.
+
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Scatter Plot of Station Elevations in NY
+
+```{r}
+
+stations %>% 
+  filter(state == "NY") |> 
+  mutate(text_label=str_c("Elevation:", elevation)) |> 
+  filter(0<elevation & elevation<500) |> 
+  plot_ly(x=~latitude,y=~longitude,color=~elevation,text=~text_label,
+          type="scatter", mode="markers",alpha=.2,colors="viridis") |> 
+  layout(
+    title = "Scatter Plot of Station Elevations in NY",
+    xaxis = list(title = "Latitude"),
+    yaxis = list(title = "Longitude")
+  )
+```
+
+In this Scatter plot, I only included data in NY state that contains elevation between zero and 500.

@@ -60,3 +60,20 @@ plot_ly(x=~element,y=~n,color=~element,type="bar",colors="viridis") |>
 ```
 
 In this bar plot, I only included counts of the variable elements less than 100. 
+
+### Boxplot of Elevation by Weather Elements
+
+```{r}
+
+stations |> 
+  mutate(element=fct_reorder(element,elevation)) |> 
+  filter(element %in% c("TMAX","TMIN","WT03","SNOW","SNWD")) |> 
+plot_ly(y=~elevation,color=~element,type="box",colors="viridis") |> 
+    layout(
+    title = "Boxplot of Elevation by Weather Elements",
+    xaxis = list(title = "Weather Element"),
+    yaxis = list(title = "Elevation")
+  )
+```
+
+In this box plot, I only included data that have element in "TMAX","TMIN","WT03","SNOW","SNWD". 

@@ -9,6 +9,18 @@ output:
 
 ![](image/welcome.gif)
 
-# Hello! Welcome to Wen's website
+# Hello! :)
+*Welcome to Wen's website!*
+
 *Glad to meet you! I am Wen Dai, a second-year Master of Public Health student specializing in Epidemiology with certificate in Biostatistics. My academic journey is driven by an unwavering commitment to understanding the determinants of health and disease, as well as the application of statistical methods to inform evidence-based public health interventions. I look forward to contributing to the advancement of epidemiological science and public health practice.*
 ![](image/wd.jpg)
+
+# Sources Links
+* [Wen's Github](https://github.com/WenDai-MPH)
+* [HEOR Summer Internship in BulePath Solutions](https://www.bluepathsolutions.com/health-economics-outcomes-research/)
+* [Mph in Epidemiology](http://www.publichealth.columbia.edu/academics/degrees/master-public-health/columbia-mph/epidemiology)
+* [Bachelor of Art in Biostatistics](https://statistics.as.virginia.edu)
+* [Wen's APEX Poster](https://www.epidemiologymsd.com/_files/ugd/1a4c4d_996ce230b9e44e968aac5f083639ee46.pdf)
+
+# About Wen
+[Read everything about me](about.html)

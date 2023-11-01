@@ -40,3 +40,23 @@ stations %>%
 ```
 
 In this Scatter plot, I only included data in NY state that contains elevation between zero and 500.
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### The count of Elements with Less than 100 Occurrences
+
+```{r}
+stations %>% 
+  count(element) |> 
+  filter(n<100) |> 
+  mutate(element= fct_reorder(element, n))  |> 
+plot_ly(x=~element,y=~n,color=~element,type="bar",colors="viridis") |> 
+   layout(
+    title = "The count of Elements with Less than 100 Occurrences",
+    xaxis = list(title = "Element"),
+    yaxis = list(title = "Count")
+  )
+```
+
+In this bar plot, I only included counts of the variable elements less than 100. 

@@ -1,0 +1,14 @@
+
+---
+title: "**Wen Dai's Website**"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+![](image/welcome.gif)
+
+# Hello! Welcome to Wen's website
+*Glad to meet you! I am Wen Dai, a second-year Master of Public Health student specializing in Epidemiology with certificate in Biostatistics. My academic journey is driven by an unwavering commitment to understanding the determinants of health and disease, as well as the application of statistical methods to inform evidence-based public health interventions. I look forward to contributing to the advancement of epidemiological science and public health practice.*
+![](image/wd.jpg)

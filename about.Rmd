@@ -1,0 +1,38 @@
+---
+title: "Everything about Wen Dai"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+![](image/giphy.gif)
+
+# EDUCATION
+* Columbia University Mailman School of Public Health (New York, NY) 	                
+Master of Public Health (MPH) in Epidemiology with Certificate in Applied Biostatistics and Public Health Data Science.   
+Relevant Coursework: Research Methods & Application | Design & Conduct of Observational Epidemiological Studies | Apply of Epidemiological Research Methods | Analysis of Categorical Data | Data Science 
+
+* University of Virginia (Charlottesville, VA)	 	          				                 
+Bachelor of Art in Biostatistics 						         		
+Relevant Coursework: Introduction to Data Science with R | Biostatistics | Introduction to Mathematical Statistics | From Data to knowledge | Introduction to Regression Analysis | Applied Time Series
+
+# EXPERIENCE
+* Blue Path Solutions (Los Angeles, CA)  
+Summer Internship: Health Economics & Outcomes Research 			             May 2023 – August 2023
+
+*Conducted literature review and developing evidence tables* 
+
+*Conducted analyses using Excel, SAS and R software* 
+
+*Supported primary research activities*
+
+*Developed and polishing of slide decks* 
+
+*Supported management in the development and implementation of internal projects *
+
+* Peking University (Beijing, China)            							 
+Summer Research Assistant: Cancer Hospital & Institute				            June 2022 – December 2022
+
+*Conducted literature review on physical activity and sedentary time among U.S. adults with diabetes*
+
+*Conducted data analyses (multivariable linear regression, logistic regression) using SAS software Contributed to manuscript writing and revision* 

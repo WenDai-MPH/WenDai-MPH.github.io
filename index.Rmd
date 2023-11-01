@@ -24,3 +24,6 @@ output:
 
 # About Wen
 [Read everything about me](about.html)
+
+# Dashboard
+[Dashboard ](Dashboard.html)
